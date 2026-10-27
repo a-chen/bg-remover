@@ -1,0 +1,26 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+blob-report/
+*.tsbuildinfo
+
+# Local configuration and secrets (never commit these)
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+
+# Logs and machine/editor state
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

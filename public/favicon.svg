@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <pattern id="checker" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path fill="#f4f6f3" d="M0 0h16v16H0z"/>
+      <path fill="#cbd3cc" d="M0 0h8v8H0zm8 8h8v8H8z"/>
+    </pattern>
+    <clipPath id="round"><rect width="64" height="64" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <path fill="url(#checker)" d="M0 0h64v64H0z"/>
+    <path fill="#18724b" d="M0 0h32v64H0z"/>
+    <path fill="#fff" d="M10 46l13-18 9 11 8-9 14 16z"/>
+    <circle cx="43" cy="19" r="6" fill="#fff"/>
+  </g>
+</svg>
