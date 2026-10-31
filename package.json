@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@imgly/background-removal": "1.7.0",
-    "onnxruntime-web": "1.21.0"
+    "onnxruntime-web": "1.30.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.64.1",
